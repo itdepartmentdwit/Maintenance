@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Site Under Maintenance</title>
+
+  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
   <style>
+    /* RESET */
     * {
       margin: 0;
       padding: 0;
@@ -13,7 +17,7 @@
     }
 
     body {
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Poppins', Arial, Helvetica, sans-serif;
       background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
       color: #333;
       display: flex;
@@ -29,7 +33,7 @@
       background: #fff;
       padding: 60px 40px;
       border-radius: 15px;
-      box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
       max-width: 500px;
       width: 100%;
       animation: fadeIn 1.2s ease-in-out;
@@ -41,7 +45,7 @@
     }
 
     h1 {
-      font-size: 2.5em;
+      font-size: 2.8em;
       color: #ff4b5c;
       margin-bottom: 20px;
       display: flex;
@@ -61,44 +65,36 @@
     }
 
     p {
-      font-size: 1.1em;
+      font-size: 1.2em;
       margin-bottom: 25px;
-      line-height: 1.5;
-    }
-
-    .notify-btn {
-      display: inline-block;
-      padding: 12px 25px;
-      background-color: #ff4b5c;
-      color: #fff;
-      font-weight: 600;
-      border-radius: 50px;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-
-    .notify-btn:hover {
-      background-color: #ff2a3c;
+      line-height: 1.6;
     }
 
     .footer {
       font-size: 0.9em;
       color: #888;
-      margin-top: 25px;
+      margin-top: 20px;
     }
 
     /* Responsive */
     @media (max-width: 480px) {
-      h1 { font-size: 2em; }
+      h1 { font-size: 2.2em; }
       p { font-size: 1em; }
       .container { padding: 40px 20px; }
     }
   </style>
 </head>
+
 <body>
   <div class="container">
-    <h1>Under Maintenance</h1>
-    <p>Our website is currently undergoing scheduled maintenance.<br>We are working hard to improve your experience and will be back shortly.</p>
+    <h1><span>⚙</span>Under Maintenance<span>⚙</span></h1>
+
+    <p>
+      Our website is currently undergoing scheduled maintenance.<br>
+      We are working hard to improve your experience and will be back very soon!
+    </p>
+
+    <div class="footer">© 2025 DWIT – All Rights Reserved</div>
   </div>
 </body>
 </html>
